@@ -1,3 +1,4 @@
+LOCAL:
 git init Inicializa el repositorio en el directorio actual.
 git add . Añade todos los archivos modificados al estado de preparación de GIT en el caso del punto serían todos los archivos dentro del repositorio modificado sin embargo el argumento del . es modificable remplazando por el archivo o carpeta del cual se guarden los cambios.
 git commit -m "..." Comando que guarda/registra los cambios de todos los archivos añadidos (guardar en el commit) con el comando anterior y envia un mensaje junto con los cambios.
@@ -7,6 +8,10 @@ git branch: Registra las ramas del repositorio local y permite gestionarlas.
 git checkout -b "rama": Cambia a la rama declarada
 git merge: Fusiona los cambios realizados en la rama de origen con los cambios realizados en la rama de destino la fusión estará en la rama de destino.
 git -rm:Elimina archivos del repositorio de Git local asi como del area de preparación (git add) al siguiente commit sera eliminado.
- 
+REMOTO:
+git push: Empuja los cambios realizados al repositorio remoto
+git remote: Gestiona los repositorios remotos asociados al repositorio local
+git clone: Crea una copia del repositorio remoto en el local.
+git pull: Actualiza los cambios hechos al repositorio remoto en el local
 
 
